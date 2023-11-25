@@ -30,7 +30,7 @@ pipeline{
             steps{
                script{
                    
-                   sh 'mvn test'
+                   mvnTest()
                }
             }
         }
